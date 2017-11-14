@@ -1,0 +1,404 @@
+body{
+  background-color: #e6e2b2;
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+
+}
+header{
+text-align: center;
+width:100%;
+height:110px;
+background-color:#FFC915;
+box-shadow: 0 3px 5px rgba(0,0,0,0.20);
+
+
+}
+#start{
+height:100%;
+width:100%
+color: #e6e2b2 ;
+text-align: center;
+justify-content: center;
+margin: auto;
+
+
+}
+#tider{
+height:100%;
+width:100%;
+background-color: #e6e2b2 ;
+text-align: center;
+justify-content: center;
+margin: auto;
+
+
+}
+
+
+.flex{
+  display:flex;
+justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width:700px;
+
+}
+
+#wrapper2{
+  display:flex;
+justify-content: space-around;
+  flex-wrap: wrap;
+  margin:0 auto;
+  width:100%;
+}
+#wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#ruta{
+  height:20%;
+  width:300px;
+  background-color:  #e6e2b2;
+text-align: center;
+margin-top: 10px;
+
+}
+#ruta2{
+  height:50%;
+  width:300px;
+  background-color:  #e6e2b2  ;
+text-align: center;
+margin-left: 20px;
+margin-top: 10px;
+
+
+}
+
+#ruta3{
+  height:20%;
+  width:300px;
+  background-color:  #e6e2b2;
+text-align: center;
+margin-left: 20px;
+margin-top: 10px;
+}
+#meny{
+width:700px;
+height:100%;
+background-color: #e6e2b2;
+margin-left: 10px;
+text-align: center;
+margin-top: 2%;
+}
+#burgare{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}
+#burgare2{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}
+#burgare3{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}
+#tacos{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}
+#tacos2{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}
+#tacos3{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}
+#grillen{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}#grillen2{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+
+}#grillen3{
+width:30%;
+height:30%;
+background-color: #e6e2b2;
+text-align: center;
+}
+
+aside{
+  width:220px;
+  height:280px;
+  background-color: #e6e2b2;
+  text-align: left;
+  border-style: solid;
+  border-color: #006994;
+  margin-left: 55px;
+  margin-top: 2%;
+}
+#dryck{
+  text-align: center;
+}
+
+
+h1{
+font-size: 3.2em;
+padding-top: 10px;
+font-family: 'Shojumaru', cursive;
+
+}
+h2{
+  font-size: 1.999em;
+  font-family: 'Shojumaru', cursive;
+  letter-spacing: 5px;
+  padding-top: 5%;
+
+
+
+}
+h3{
+  font-size: 1.999em;
+  font-family: 'Galindo', cursive;
+  color: #4F1400;
+  padding-top: 9px;
+  width: 80%;
+  margin: auto;
+
+}
+h3.tider{
+  font-size: 1.999em;
+  font-family: 'Galindo', cursive;
+  color: #4F1400;
+  padding-top: 9px;
+
+
+}
+h4{
+  font-family: 'Mrs Sheppards', cursive;
+  color :#4F1400;
+  font-size: 19px;
+  letter-spacing: 1px;
+
+}
+
+h5{
+  color:#000000;
+  font-family: 'Galindo', cursive;
+  font-size: 1.05em;
+}
+
+h6{
+  color:#000000;
+  font-family:'Galindo', cursive;
+  font-size: 1.31em;
+  letter-spacing: 2px;
+  margin-left: 4px;
+
+
+}
+h6.one{
+color:#2E6AF3;
+font-family: 'Galindo', cursive;
+font-size: 1.52em;
+}
+h6.dricka{
+  color:#2E6AF3;
+  font-family: 'Galindo', cursive;
+  font-size: 1.3em;
+
+}
+h6.two{
+  color:#000000;
+  font-family: 'Galindo', cursive;
+  font-size: 1.3em;
+
+
+}
+a.one{
+  text-decoration:none;
+  color: #4F1400 ;
+}
+
+h2 >a.two{
+  position: relative;
+  text-decoration: none;
+  color: #2E6AF3;
+}
+h2 >a.two:hover{
+color:#2E6AF3;
+}
+
+h2 > a.two:before {
+  content: "";
+  position: absolute;
+  width: 98%;
+  height:3.2px;
+  bottom: 0;
+  left: 0;
+  background-color: #006994;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease-in-out   0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+h2 > a.two:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+@media screen and (max-width:990px){
+#wrapper2{
+  width: 100%;
+  justify-content: space-around;
+}
+
+  aside{
+    margin: auto;
+  }
+}
+@media screen and (max-width:802px){
+  #wrapper2{
+    flex-direction: column;
+    align-items: center;
+  }
+
+@media screen and (max-width:710px){
+
+    body{
+  height: 100%;
+
+      }
+    #wrapper2{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+
+    font-size: 90%;
+    }
+  #wrapper{
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  }
+  #ruta{
+    order:3;
+
+  }
+  #ruta2{
+    order:1;
+    margin-top: 0px;
+
+  }
+  #ruta3{
+    order:0;
+
+
+  }
+  #start{
+    order:3;
+  width: 90%;
+  height: 100%;
+  }
+
+  #tider{
+    order:3;
+    width:100%;
+
+  }
+  .flex{
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+
+  aside{
+    order:4;
+    margin: auto;
+
+  }
+
+  #meny{
+    order:5;
+  width:300%;
+
+  }
+article{
+  width:100%;
+  font-size: 90%;
+  padding-bottom: 10%;
+}
+
+  h3{
+
+  font-size: 180%;
+
+  }
+
+  h3.tider{
+    width:100%;
+    font-size: 190%;
+    padding-top: 5%;
+  }
+  h5{
+    font-size: 120%;
+  }
+  h6{
+    font-size: 120%;
+  }
+  h6.dricka{
+    font-size: 130%;
+  }
+  h6.two{
+    font-size: 150%;
+  }
+
+
+
+
+@media screen and (max-width:455px){
+  header{
+
+    height:175px;
+  }
+
+}
+
+
+@media screen and (max-width:320px){
+#wrapper2{
+  width:80%;
+  font-size: 80%;
+}
+
+}
